@@ -155,3 +155,11 @@ class App extends React.Component {
 }
 
 export default App;
+
+
+// NOTES: create-react-app not connecting with localhost on npm start
+// 1) change in package.json start script to
+//     "start": "react-scripts --openssl-legacy-provider start",
+// 2) change in package.json react-scripts version to
+//     "react-scripts": "^5.0.2" or above
+// 3) change node version to LTS 18 or higher

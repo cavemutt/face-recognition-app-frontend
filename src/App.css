@@ -123,6 +123,7 @@ nav p:hover {
   height: .5rem;
   background: black;
   border: .2rem solid rgb(47, 231, 231);
+  box-shadow: 0 0 0 .04rem black;
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
